@@ -71,7 +71,6 @@
 |------|------|------|------|
 | **Systolic Arrays: A Survey** | H. T. Kung | 1982 | [IEEE Computer](https://ieeexplore.ieee.org/) |
 | **In-Datacenter Performance Analysis of a Tensor Processing Unit** | Jouppi et al. | 2017 | [ISCA 2017](https://arxiv.org/abs/1704.04760)（arXiv 免费） |
-| **Ten Lessons From Three Generations Shaped Google's TPUv4i** | Jouppi et al. | 2023 | [ISCA 2023](https://arxiv.org/abs/2306.12660) |
 | **The Landscape of Parallel Computing Research: A View from Berkeley** | Asanović et al. | 2006 | [UCB/EECS-2006-183](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-183.html) |
 | **Simplified Vector-Thread Architectures** | UC Berkeley | 2006 | [EECS Tech Report](https://www2.eecs.berkeley.edu/Pubs/TechRpts/) |
 
