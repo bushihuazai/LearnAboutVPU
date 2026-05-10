@@ -96,34 +96,27 @@ note right of SIMD : 本文档核心讨论范围\n矢量计算的主要载体
 
 ```plantuml
 @startuml
-skinparam timeline {
-  BackgroundColor white
-  ElementBackgroundColor #E8F4FD
-  ElementBorderColor #2196F3
-}
+skinparam backgroundColor #FAFAFA
+skinparam defaultFontSize 12
 
 title 矢量处理器与 SIMD 技术演进时间线
 
-2020-2026: AI 矩阵加速时代
-2010-2020: 可扩展矢量 ISA
-2000-2010: GPU 通用计算崛起
-1990-2000: 多媒体 SIMD 扩展
-1970-1990: 专用矢量超算
-
-(* 1976: Cray-1 首个商用矢量处理器
-* 1996: Intel MMX 多媒体扩展
-* 1999: Intel SSE 流式 SIMD 扩展
-* 2000: NVIDIA GeForce2（首款 GPU 支持 DirectX 7）
-* 2006: NVIDIA CUDA 发布（G80 / Tesla）
-* 2008: Intel SSE4 / AVX 指令集规范
-* 2013: ARM NEON 成为标准特性
-* 2016: ARM SVE 发布（AArch64 可扩展矢量）
-* 2017: Intel AVX-512 正式发布（Skylake-SP）
-* 2021: RISC-V RVV 1.0 获批
-* 2022: Intel AMX（第四代至强）
-* 2023: ARM SME（可扩展矩阵扩展）
-* 2025: RISC-V RVV 工具链成熟
-* 2026: ARM SVE2 广泛落地
+start
+:1976: Cray-1 首个商用矢量处理器;
+:1996: Intel MMX 多媒体扩展;
+:1999: Intel SSE 流式 SIMD 扩展;
+:2000: NVIDIA GeForce2（首款 GPU 支持 DirectX 7）;
+:2006: NVIDIA CUDA 发布（G80 / Tesla）;
+:2008: Intel SSE4 / AVX 指令集规范;
+:2013: ARM NEON 成为标准特性;
+:2016: ARM SVE 发布（AArch64 可扩展矢量）;
+:2017: Intel AVX-512 正式发布（Skylake-SP）;
+:2021: RISC-V RVV 1.0 获批;
+:2022: Intel AMX（第四代至强）;
+:2023: ARM SME（可扩展矩阵扩展）;
+:2025: RISC-V RVV 工具链成熟;
+:2026: ARM SVE2 广泛落地;
+stop
 
 @enduml
 ```
